@@ -1,7 +1,6 @@
 # EECS-731: Assignment 2 (To be or not to be)
 ---
-All the work as well as the code for this assignment is documented in the
-notebook contained in the 'notebooks' directory.
+Our jupyter notebook for this assignment can be found in the 'notebooks' directory.
 
 - [./notebooks/nb2-shakespeare.ipynb](Jupyter Notebook)
 
