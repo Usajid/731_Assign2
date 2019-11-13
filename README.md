@@ -1,9 +1,8 @@
 # EECS-731: Assignment 2 (To be or not to be)
 ---
-Our jupyter notebook for this assignment can be found in the 'notebooks' directory (notebooks/shakespeare.ipynb).
+The jupyter notebook for this assignment can be found in the 'notebooks' directory (notebooks/shakespeare.ipynb).
 
-
-The soure code can be found in the src directory (src/shakespeare.py)
+The python source code can be found in the src directory (src/shakespeare.py)
 
 I used the four major classifiers, for the given classification task, as following:
 - Multinomial Naive Bayes
