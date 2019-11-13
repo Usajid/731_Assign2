@@ -17,14 +17,16 @@ The classifiation accuracy results are stated below:
 
 ```
 Multinomial Naive Bayes Accuracy: 46%
----
+
 Linear SVC (Without any Kernel) Accuracy: 92.2%
----
+
 Logistic Regression Accuracy: 54.1%
----
+
 Random Forest Accuracy: 93.7%
 
 ```
+
+After feature transformation and data cleaning process, we did a training/testing split of around (75%/25%) respectively from total 39,826 samples.
 
 For detailed analysis and time consumption details, please see the notebook (notebooks/shakespeare.ipynb)
 
