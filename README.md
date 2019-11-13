@@ -3,31 +3,16 @@
 Our jupyter notebook for this assignment can be found in the 'notebooks' directory (notebooks/shakespeare.ipynb).
 
 
-I have also separated the code from the notebook into a standalone python file;
-so that I may experiment with the entire dataset on the EECS cycle servers (My
-personal machines were not capable enough for dealing with the dataset in its
-entirety). These can be seen here:
+The soure code can be found in the src directory (src/shakespeare.py)
 
-- [./src/shakespeare.py](Simple test with entire dataset)
-- [./src/shakespeare2.py](Advanced test with entire dataset using custom TfIdfVectorization)
-
-I used the following classifiers:
-- Random Forest
-- Linear SVC
+I used the four major classifiers, for the given classification task, as following:
+- Multinomial Naive Bayes
+- Random Forest Classifier
+- Linear Support Vector Classifier (Without Kernel)
 - Logistic Regression
 
-I used the following features:
-- Player Line
-- Play
+The PDF version of notebook or report can be found in the reports directory (reports/shakespeare.pdf)
 
-I combined these two features into a single one for each dataline and calculated TfIdfVectors for them for training the classifers.
-
-I also tried Multinomial Naive Bayes but it was excruciatingly slow. Among all
-the classifers, Logistic regression showed best accuracy (~23%) for the entire
-dataset and ~13% for the filtered subset of data.
-
-The PDF version of notebook can be seen here:
-- [./src/nb2-shakespeare.pdf](Report)
 
 # UPDATE
 After the discussion in the class today (09/24/2018), I got the idea to train
