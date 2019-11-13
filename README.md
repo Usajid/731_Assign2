@@ -1,4 +1,4 @@
-# EECS-731: Assignment 2 (To be or not to be)
+# EECS-731: Assignment # 02 (To be or not to be)
 ---
 The jupyter notebook for this assignment can be found in the 'notebooks' directory (notebooks/shakespeare.ipynb).
 
