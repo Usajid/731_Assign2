@@ -16,16 +16,13 @@ The PDF version of notebook or report can be found in the reports directory (rep
 The classifiation accuracy results are stated below:
 
 ```
+Multinomial Naive Bayes Accuracy: 46%
 ---
-## Classifying with Random Forest Classifer [RFC]...
-[RFC] Score: 0.961
+Linear SVC (Without any Kernel) Accuracy: 92.2%
 ---
-## Classifying with Logistic Regression Classifer [LRC]...
-[LRC] Score: 0.408
+Logistic Regression Accuracy: 54.1%
 ---
-## Classifying with Linear SV-Classifer [SVC]...
-[SVC] Score: 0.877
----
+Random Forest Accuracy: 93.7%
 
 ```
 
