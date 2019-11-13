@@ -13,27 +13,9 @@ I used the four major classifiers, for the given classification task, as followi
 
 The PDF version of notebook or report can be found in the reports directory (reports/shakespeare.pdf)
 
-
-# UPDATE
-After the discussion in the class today (09/24/2018), I got the idea to train
-my classifiers on the ENTIRE dataset instead of training on one set and testing
-on the other unseen set. With that, I get best case **accuracy of ~95% with
-Random Forest Classifier** on the filtered (balanced) dataset.
-Linear SVC was a close second with **~93%** accuracy.
-
-# UPDATE-2
-Just finished executing my program on full dataset in EECS cycle servers.
-On full dataset, accuracy of **Random Forest is ~96%** and also orders of
-magnitude faster than the other classifiers (maybe due to the parallelization
-i.e., I used 24-jobs for this classifier). The detailed results are stated
-below:
+The classifiation accuracy results are stated below:
 
 ```
-## Shakespear Dataset Dimensions:  (111396, 6)
-## Shakespear Dataset Dimensions (Without Missing Values):  (105152, 7)
----
-## Feaature Matrix Shape:  (105152, 12710)
-## Testing Matrix Shape :  (26288, 12710) (26288,)
 ---
 ## Classifying with Random Forest Classifer [RFC]...
 [RFC] Score: 0.961
@@ -44,15 +26,10 @@ below:
 ## Classifying with Linear SV-Classifer [SVC]...
 [SVC] Score: 0.877
 ---
-## ==================== TIMING STATS (in seconds)
-Data Reading                   : 0.18
-Feature Extraction             : 0.04
-Feature Transformation         : 3.71
-Test Preparation               : 3.66
-Random Forest                  : 44.99
-Logistic Regression            : 799.13
-Linear SVC                     : 509.69
+
 ```
+
+For detailed analysis and time consumption details, please see the notebook (notebooks/shakespeare.ipynb)
 
 # Conclusion
 First, we pre-processed and balanced the given Shakespeare dataset. Then, we analyzed four major machine learning classifiers to classify correct Players label. Out of four tested classifiers, Random Forest based classifier outperformed other methods with best accuracy of 93.7%. One reason of Random Forest, being the best, is their property of ensembleness as final classifiation score is not based on just one Decision Tree, but from several Decision Trees using majority voting mechanism. They are also less prone to over-fitting/high-variance as each tree learns to predict differently.
