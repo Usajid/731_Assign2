@@ -10,9 +10,9 @@ I used the four major classifiers, for the given classification task, as followi
 - Linear Support Vector Classifier (Without Kernel)
 - Logistic Regression
 
-The PDF version of notebook or report can be found in the reports directory (reports/shakespeare.pdf)
+The PDF version of notebook or report can be found in the report directory (report/shakespeare.pdf)
 
-The classifiation accuracy results are stated below:
+After feature transformation and data cleaning process, we did a training/testing split of around (75%/25%) respectively from total 39,826 samples. The classifiation accuracy results are stated below:
 
 ```
 Multinomial Naive Bayes Accuracy: 46%
@@ -24,8 +24,6 @@ Logistic Regression Accuracy: 54.1%
 Random Forest Accuracy: 93.7%
 
 ```
-
-After feature transformation and data cleaning process, we did a training/testing split of around (75%/25%) respectively from total 39,826 samples.
 
 For detailed analysis and time consumption details, please see the notebook (notebooks/shakespeare.ipynb)
 
