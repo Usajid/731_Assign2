@@ -53,3 +53,6 @@ Random Forest                  : 44.99
 Logistic Regression            : 799.13
 Linear SVC                     : 509.69
 ```
+
+# Conclusion
+First, we pre-processed and balanced the given Shakespeare dataset. Then, we analyzed four major machine learning classifiers to classify correct Players label. Out of four tested classifiers, Random Forest based classifier outperformed other methods with best accuracy of 93.7%. One reason of Random Forest, being the best, is their property of ensembleness as final classifiation score is not based on just one Decision Tree, but from several Decision Trees using majority voting mechanism. They are also less prone to over-fitting/high-variance as each tree learns to predict differently.
